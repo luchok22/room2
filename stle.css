@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Montserrat:wght@300&family=Playfair+Display:wght@400;600;700&family=Poppins&family=Roboto:wght@300;400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.conteiner{
+    width: 80%;
+    margin: 0 auto;
+}
+header .conteiner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    font-family: "Roboto";
+}
+header nav{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+.right{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height, or 120% */
+
+   text-align: center;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+    text-decoration: none;
+   color: #000000;
+}
+main{
+    height: 90vh;
+    padding: 50px;
+}
+main img{
+    width: 100%;
+    height: 100%;
+}
+.bdesing{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+.bdesing h1{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+  width: 30%;
+
+color: #1A1A1A;
+}
+.bdesing p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 40px;
+   width: 596px;
+
+color: #AAAAAA;
+}
+.bDesi{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 284px;
+}
+.bDesi div{
+    width: 46%;
+    margin-bottom: 40px;
+}
+.bDesi img{
+    width: 100%;
+}
+.bDesi div p{
+    font-family: 'Roboto';
+
+}
+.brands{
+    margin-bottom: 239px;
+}
+header{
+    border-bottom: 1px solid #E0E0E0;
+}
+header .conteiner img + img{
+    width: 36px;
+}
+.menu{
+    width: 36px;
+    display: none;
+}
+.frame{
+    width: 1348px;
+    margin-bottom: 119px;
+}
+.things{
+    display: flex;
+    justify-content: space-between;
+}
+.our{
+   margin-bottom: 24px;
+   font-size: 3em;
+   font-family: 'Roboto';
+}
+.get{
+    margin-bottom: 71px;
+    font-family: 'Roboto';
+    color: #46856E;
+
+}
+.img img{
+    margin-left: 50px;
+    margin-bottom: 26px;
+}
+.img h1{
+    margin-bottom: 18px;
+    font-family: 'Roboto';
+}
+.img p{
+    margin-bottom: 237px;
+}
+.fon{
+    background-image: url(./img/Rectangle2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 90%;
+    background-position: center;
+    margin: 0 auto;
+    margin-bottom: 240px;
+}
+.fon img{
+    margin-top: 100px;
+}
+.things{
+    font-family: "Roboto";
+}
+.advantages{
+    font-family: 'Roboto';
+}
+.advantages h1{
+    margin-bottom: 25px;
+}
+.we{
+    color: #AAAAAA;
+    margin-left: 175px;
+    font-size: 2.3em;
+}
+.wemake{
+    font-size: 1.5em;
+    margin-left: 175px;
+    margin-bottom: 135px;
+}
+.water{
+    margin-bottom: 180px;
+}
+.advantages .conteiner>div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10vh;
+}
+.advantages .conteiner>div img{
+    width: 60%;
+}
+.advantages .conteiner>div div{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.gray{
+    background-image: url(./img/grayfon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1200px;
+    height: 550px;
+    margin-left: 80px;
+}
+.fonpeop{
+    width: 1348px;
+    margin-bottom: 286px;
+}
+.play{
+    margin-bottom: 70px;
+}
+.gray .conteiner h1{
+    display: flex;
+    height: 30vh;
+    margin-left: 270px;
+    font-size: 2.5em;
+    font-family: "Roboto";
+    align-items: center;
+}
+.things2{
+    display: flex;
+    justify-content: space-around;
+    font-family: "Roboto";
+}
+.things2 img{
+    align-items: center;
+    display: flex;
+    height: 20vh;
+}
+.button{
+    display: flex;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.button button{
+    background-color: #46856E;
+    border: none;
+    color: white;
+    height: 50px;
+    width: 150px;
+}
+.button p{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #AAAAAA;
+}
+ footer{
+    background-color: #1A1A1A;
+    color: white;
+    font-family: "Roboto";
+    height: 90vh;
+    margin-top: 97px;
+ }
+ .gray{
+    margin-bottom: 80px;
+ }
+ .things3{
+    width: 50%;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#other{
+    flex-direction: column;
+    display: flex;
+    width: 60vh;
+    align-items: flex-start;   
+    margin-left: 210px; 
+}
+.brands h1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #1A1A1A;
+}
+.brands p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #4A4A4A;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.brands .container div{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 40px;
+    justify-items: center;
+}
+#place{
+    margin-left: 430px;
+}
+#stuffs{
+    margin-top: 40px;
+}
+#countries{
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+    header nav{
+        display: none;
+        
+    }
+    .menu{
+        display: inline-block;
+    }
+    header .conteiner div{
+
+        display: none;
+    }
+    main{
+        padding: 10px;
+        height: 30%;
+        width: 100%;
+    }
+    .conteiner{
+        width: 95%;
+    }
+    .bdesing{
+        margin-top: 2vh;
+        text-align: center;
+        flex-direction: column;
+        margin-bottom: 5vh;
+    }
+    .bdesing h1{
+    font-size: 32px;
+    width: 100%;
+    line-height: 40px;
+    }
+    .bdesing p{
+    font-size: 18px;
+    width: 100%;
+    line-height: 30px;
+    }
+    .bDesi{
+        flex-direction: column;
+    }
+    .bDesi div{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .frame{
+        padding: 10px;
+        height: 30%;
+        width: 100%;
+    }
+    .our{
+        text-align: center;
+        font-size: 32px;
+        line-height: 40px;
+        margin-top: 10vh;
+
+    }
+    .things{
+        flex-direction: column;
+    }
+    .img p{
+        margin-bottom: 50px;
+    }
+    .things h1{
+        align-items: center;
+        width: 100%;
+    }
+    .fon{
+        text-align: center;
+        background-position: center;
+        color: white;
+        height: 80vh;
+        margin: 5vh 0;
+        width: 100%;
+    }
+    .advantages .conteiner>div{
+       flex-direction: column;
+    }
+    .advantages .conteiner>div div{
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .water{
+        margin-bottom: 10px;
+    }
+    .advantages .conteiner>div img{
+        width: 100%;
+    }
+    .we{
+        text-align: center;
+        width: 100%;
+        margin-left: 5px;
+    }
+    .wemake{
+      font-size: 2em;
+      margin-bottom: 80px;
+      margin-left: 20px;
+    }
+    .fonpeop{
+        padding: 5px;
+        height: 30%;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .brands .container div{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(9, 1fr);
+        gap: 30px;
+    }
+    .gray{
+        width: 100%;
+        height: 40vh;
+        margin-left: 5px;
+        padding: 10px;
+    }
+    .gray .conteiner h1{
+        text-align: center;
+        margin-left: 50px;
+        display: flex;
+        height: 10vh;
+        align-items: center;
+        width: 100%;   
+        font-size: 1.8em;
+        margin-bottom: 10px;
+     }
+     .things2 div{
+        height: 10vh;
+        align-items: flex-start;
+     }
+     .things2 img{
+        width: 60%;
+        height: 10vh;
+        align-items: flex-start;
+        margin-bottom: 5px;
+     }
+     .play{
+        margin-bottom: 10px;
+     }
+     body{
+        width: 630px;
+     }
+
+}
+
+
