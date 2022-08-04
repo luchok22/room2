@@ -109,7 +109,9 @@ header .conteiner img + img{
 .things{
     display: flex;
     justify-content: space-between;
+    margin-top: 10vh;
 }
+
 .our{
    margin-bottom: 24px;
    font-size: 3em;
@@ -154,6 +156,20 @@ header .conteiner img + img{
 .advantages h1{
     margin-bottom: 25px;
 }
+.advantages .conteiner>div{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10vh;
+}
+.advantages .conteiner>div img{
+    width: 60%;
+}
+.advantages .conteiner>div div{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .we{
     color: #AAAAAA;
     margin-left: 175px;
@@ -166,20 +182,6 @@ header .conteiner img + img{
 }
 .water{
     margin-bottom: 180px;
-}
-.advantages .conteiner>div{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10vh;
-}
-.advantages .conteiner>div img{
-    width: 60%;
-}
-.advantages .conteiner>div div{
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 .gray{
     background-image: url(./img/grayfon.jpg);
@@ -213,6 +215,11 @@ header .conteiner img + img{
     align-items: center;
     display: flex;
     height: 20vh;
+    width: 70%;
+}
+.bDesi div p{
+    margin-top: 3vh;
+    font-size: 23px;
 }
 .button{
     display: flex;
@@ -293,162 +300,325 @@ header .conteiner img + img{
 #countries{
     margin-top: 40px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 576px) {
-    header nav{
-        display: none;
-        
-    }
-    .menu{
-        display: inline-block;
-    }
-    header .conteiner div{
-
-        display: none;
-    }
-    main{
-        padding: 10px;
-        height: 30%;
-        width: 100%;
-    }
-    .conteiner{
-        width: 95%;
-    }
-    .bdesing{
-        margin-top: 2vh;
-        text-align: center;
-        flex-direction: column;
-        margin-bottom: 5vh;
-    }
-    .bdesing h1{
-    font-size: 32px;
+/* FOOTER */
+footer{
+    background: #2B2B2B;
+    margin-top: 5%;
+    color: #fff;
     width: 100%;
-    line-height: 40px;
-    }
-    .bdesing p{
-    font-size: 18px;
-    width: 100%;
-    line-height: 30px;
-    }
-    .bDesi{
-        flex-direction: column;
-    }
-    .bDesi div{
-        width: 100%;
-        margin-bottom: 20px;
-    }
-    .frame{
-        padding: 10px;
-        height: 30%;
-        width: 100%;
-    }
-    .our{
-        text-align: center;
-        font-size: 32px;
-        line-height: 40px;
-        margin-top: 10vh;
+    height: fit-content;
+  }
+  .footer{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footerL , .footerR{
+    margin-top: 5%;
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .f-logo{
+    width: 5%;
+  }
+  .footer-nav{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+  }
+  .footer-nav div{
+    margin-right: 15%;
+  }
+  .footer-nav h2{
+    margin-bottom: 15%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+  }
+  .footer-nav p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+  }
+  .nav-botton{
+    margin-top: 5%;
+  }
+  .footerR{
+    width: 50%;
+    display: grid;
+  }
+  .join p{
+    display: inline-block
+  }
 
-    }
-    .things{
-        flex-direction: column;
-    }
-    .img p{
-        margin-bottom: 50px;
-    }
-    .things h1{
-        align-items: center;
-        width: 100%;
-    }
-    .fon{
-        text-align: center;
-        background-position: center;
-        color: white;
-        height: 80vh;
-        margin: 5vh 0;
-        width: 100%;
-    }
-    .advantages .conteiner>div{
-       flex-direction: column;
-    }
-    .advantages .conteiner>div div{
-        width: 100%;
-        text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media (max-width: 576px) {
+      header nav{
+          display: none;
+          
+      }
+      .fon img{
+          width: 100%;
+      }
+      .menu{
+          display: inline-block;
+      }
+      header .conteiner div{
+  
+          display: none;
+      }
+      main{
+          padding: 10px;
+          height: 30%;
+          width: 100%;
+      }
+      .conteiner{
+          width: 95%;
+      }
+      .bdesing{
+          margin-top: 2vh;
+          text-align: center;
+          flex-direction: column;
+          margin-bottom: 5vh;
+      }
+      .bdesing h1{
+      font-size: 32px;
+      width: 100%;
+      line-height: 40px;
+      }
+      .bdesing p{
+      font-size: 18px;
+      width: 100%;
+      line-height: 30px;
+      }
+      .bDesi{
+          flex-direction: column;
+      }
+      .bDesi div{
+          width: 100%;
+          margin-bottom: 20px;
+      }
+      .frame{
+          padding: 10px;
+          height: 30%;
+          width: 100%;
+      }
+      .our{
+          text-align: center;
+          font-size: 32px;
+          line-height: 40px;
+          margin-top: 10vh;
+  
+      }
+      .get{
+          font-size: 30px;
+          text-align: center;
+      }
+      .things{
+          text-align: center;
+          flex-direction: column;
+      }
+      .img p{
+          margin-bottom: 50px;
+      }
+      .things h1{
+          font-size: 35px;
+          align-items: center;
+          width: 100%;
+      }
+      .fon{
+          text-align: center;
+          background-position: center;
+          color: white;
+          height: 80vh;
+          margin: 5vh 0;
+          width: 100%;
+      }
+      .advantages .conteiner>div{
+         flex-direction: column;
+      }
+      .advantages .conteiner>div div{
+          width: 100%;
+          text-align: center;
+          margin-top: 10px;
+      }
+      .water{
+          margin-bottom: 10px;
+      }
+      .advantages .conteiner>div img{
+          width: 100%;
+      }
+      .we{
+          text-align: center;
+          width: 100%;
+          margin-left: 5px;
+      }
+      .wemake{
+        font-size: 2em;
+        margin-bottom: 80px;
+        margin-left: 20px;
+      }
+      .fonpeop{
+          padding: 5px;
+          height: 30%;
+          width: 100%;
+          margin-bottom: 20px;
+      }
+      .brands .container div{
+          grid-template-columns: repeat(2, 1fr);
+          grid-template-rows: repeat(9, 1fr);
+          gap: 30px;
+      }
+      footer{
         margin-top: 10px;
+      }
+      .gray{
+          margin-bottom: 30px;
+          width: 100%;
+          height: 40vh;
+          margin-left: 5px;
+          padding: 10px;
+      }
+      .bDesi div p{
+          text-align: center;
+          margin: 3vh 0;
+          font-size: 32px;
+      }
+      .bDesi{
+          margin-bottom: 5vh;
+      }
+      .advantages div h1{
+          font-size: 35px;
+      }
+      .advantages div p{
+          font-size: 25px;
+      }
+      .gray .conteiner h1{
+          margin-left:10px;
+          display: flex;
+          width: 100%;
+          height: 5vh;
+          align-items: center;
+          font-size: 32px;
+          margin-bottom: 10px;
+       }
+       .things2 div p{
+          font-size: 16px;
+       }
+       .things2 div{
+          height: 10vh;
+          align-items: flex-start;
+       }
+       .things2 img{
+          width: 60%;
+          height: 10vh;
+          align-items: flex-start;
+          margin-bottom: 5px;
+       }
+       .brands p{
+          font-size: 25px;
+       }
+       .things p{
+          font-size: 25px;
+       }
+       .play{
+          margin-bottom: 10px;
+       }
+      
+      .button button{
+          width: 100%;
+          font-size: 20px;
+      }
+      .button p{
+          font-size: 20px;
+      }
+       /* FOOTER */
+    footer{
+      height: fit-content;
     }
-    .water{
-        margin-bottom: 10px;
+    .footer{
+      width: 95%;
     }
-    .advantages .conteiner>div img{
-        width: 100%;
+    .f-logo{
+      width: 5%;
     }
-    .we{
-        text-align: center;
-        width: 100%;
-        margin-left: 5px;
+    .footerL , .footerR{
+      width: 100%;
     }
-    .wemake{
-      font-size: 2em;
-      margin-bottom: 80px;
-      margin-left: 20px;
+    .footerL>img{
+      height: 50px;
     }
-    .fonpeop{
-        padding: 5px;
-        height: 30%;
-        width: 100%;
-        margin-bottom: 20px;
+    .footer-nav{
+      width: 100%;
+      margin: 15vh 0;
     }
-    .brands .container div{
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(9, 1fr);
-        gap: 30px;
+    .footer-nav div{
+      margin-right: 10px;
     }
-    .gray{
-        width: 100%;
-        height: 40vh;
-        margin-left: 5px;
-        padding: 10px;
+    .footer-nav h2{
+      margin-bottom: 15%;
+      font-size: 15px;
     }
-    .gray .conteiner h1{
-        text-align: center;
-        margin-left: 50px;
-        display: flex;
-        height: 10vh;
-        align-items: center;
-        width: 100%;   
-        font-size: 1.8em;
-        margin-bottom: 10px;
-     }
-     .things2 div{
-        height: 10vh;
-        align-items: flex-start;
-     }
-     .things2 img{
-        width: 60%;
-        height: 10vh;
-        align-items: flex-start;
-        margin-bottom: 5px;
-     }
-     .play{
-        margin-bottom: 10px;
-     }
-     body{
-        width: 630px;
-     }
-
-}
-
+    .footer-nav p{
+      font-size: 10px;
+      line-height: 15px;
+    }
+    .nav-botton{
+      margin-top: 5%;
+    }
+    .footerR{
+      width: 45%;
+      display: grid;
+    }
+    .social{
+      height: 45px;
+    }
+    .social h2{
+      margin-bottom: 20px;
+    }
+    .social img:not(:last-child){
+      margin-right: 20px;
+    }
+    .join h4{
+      margin-bottom: 2vh;
+    }
+    .join h2{
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+    .join p{
+      margin-top: 10px;
+    }
+      
+  }
+  
 
