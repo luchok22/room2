@@ -135,17 +135,29 @@ header .conteiner img + img{
     margin-bottom: 237px;
 }
 .fon{
-    background-image: url(./img/Rectangle2.jpg);
+    background-image: url(./img/bluefon.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 800px;
+    height: 120vh;
     width: 90%;
-    background-position: center;
     margin: 0 auto;
     margin-bottom: 240px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-.fon img{
-    margin-top: 100px;
+.fon div .stars img{
+    margin: 10px 0;
+}
+.fon div p{
+    margin: 25px 0;
+}
+.fon>div{
+    font-family: "Roboto";
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+
 }
 .things{
     font-family: "Roboto";
@@ -385,9 +397,6 @@ footer{
       header nav{
           display: none;
           
-      }
-      .fon img{
-          width: 100%;
       }
       .menu{
           display: inline-block;
